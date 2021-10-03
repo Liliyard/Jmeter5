@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="329" it="0" lt="318" ct="231" ts="1622954455755" s="true" lb="获取手机归属地" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="667" sby="619" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://ws.webxml.com.cn/WebServices/MobileCodeWS.asmx</java.net.URL>
+</httpSample>
+<httpSample t="61" it="0" lt="61" ct="0" ts="1622954456094" s="true" lb="GET请求" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="363" sby="199" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://ws.webxml.com.cn/WebServices/MobileCodeWS.asmx/getMobileCodeInfo?mobileCode=15622316046&amp;userID=</java.net.URL>
+</httpSample>
+<httpSample t="50" it="0" lt="50" ct="0" ts="1622954456156" s="true" lb="POST请求" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="363" sby="283" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://ws.webxml.com.cn/WebServices/MobileCodeWS.asmx/getMobileCodeInfo</java.net.URL>
+</httpSample>
+<httpSample t="1075" it="0" lt="1075" ct="998" ts="1622954456208" s="false" lb="获取招聘信息" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="293" sby="2871" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>JSON断言-业务数据正确性校验</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>Missing property in path $[&apos;content&apos;]</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>JSON断言-业务状态码</name>
+    <failure>true</failure>
+    <error>false</error>
+    <failureMessage>No results for path: $[&apos;code&apos;]</failureMessage>
+  </assertionResult>
+  <java.net.URL>https://www.lagou.com/jobs/positionAjax.json?city=%E5%B9%BF%E5%B7%9E&amp;needAddtionalResult=false</java.net.URL>
+</httpSample>
+<httpSample t="25" it="0" lt="25" ct="1" ts="1622954457325" s="true" lb="获取人员列表" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="740" sby="155" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://192.168.157.128:8080/futureloan/mvc/api/member/list</java.net.URL>
+</httpSample>
+<httpSample t="65" it="0" lt="65" ct="0" ts="1622954457352" s="true" lb="充值" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="393" sby="196" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://192.168.157.128:8080/futureloan/mvc/api/member/recharge?mobilephone=15622316046&amp;amount=10000</java.net.URL>
+</httpSample>
+<httpSample t="559" it="0" lt="559" ct="208" ts="1622954457418" s="true" lb="人人网登录" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="1037" sby="547" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>判断是否登陆成功</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>判断业务码</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <java.net.URL>http://rrwapi.renren.com/account/v1/loginByPassword</java.net.URL>
+</httpSample>
+<httpSample t="243" it="0" lt="151" ct="56" ts="1622954457981" s="true" lb="访问个人主页" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="46596" sby="723" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>XPath断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>No Nodes Matched for //*[@class=&quot;login-menus&quot;]/a[2]=&quot;退出登录&quot; and //*[@class=&quot;is-login&quot;]/a/@href=&quot;/personal/2147537103&quot;</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>响应断言-判断是否是张三的个人主页</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://www.renren.com/personal/2147537103</java.net.URL>
+</httpSample>
+
+</testResults>

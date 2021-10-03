@@ -1,0 +1,34 @@
+{
+  "登录" : {
+    "transaction" : "登录",
+    "sampleCount" : 100,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 5.3,
+    "medianResTime" : 3.0,
+    "minResTime" : 2.0,
+    "maxResTime" : 64.0,
+    "pct1ResTime" : 8.900000000000006,
+    "pct2ResTime" : 14.0,
+    "pct3ResTime" : 63.81999999999991,
+    "throughput" : 10.184336490477644,
+    "receivedKBytesPerSec" : 2.267606171707913,
+    "sentKBytesPerSec" : 2.7350513035950708
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 100,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 5.3,
+    "medianResTime" : 3.0,
+    "minResTime" : 2.0,
+    "maxResTime" : 64.0,
+    "pct1ResTime" : 8.900000000000006,
+    "pct2ResTime" : 14.0,
+    "pct3ResTime" : 63.81999999999991,
+    "throughput" : 10.184336490477644,
+    "receivedKBytesPerSec" : 2.267606171707913,
+    "sentKBytesPerSec" : 2.7350513035950708
+  }
+}

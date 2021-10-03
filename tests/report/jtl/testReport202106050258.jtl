@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testResults version="1.2">
+<httpSample t="641" it="0" lt="638" ct="112" ts="1622833107392" s="true" lb="人人网登录" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="1042" sby="547" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>判断是否登陆成功</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>判断业务码</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage></failureMessage>
+  </assertionResult>
+  <java.net.URL>http://rrwapi.renren.com/account/v1/loginByPassword</java.net.URL>
+</httpSample>
+<httpSample t="317" it="0" lt="230" ct="130" ts="1622833108073" s="true" lb="访问个人主页" rc="200" rm="OK" tn="线程组 1-1" dt="text" by="35767" sby="723" ng="1" na="1">
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>响应断言</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <assertionResult>
+    <name>XPath断言</name>
+    <failure>false</failure>
+    <error>false</error>
+    <failureMessage>No Nodes Matched for //*[@class=&quot;login-menus&quot;]/a[2]=&quot;退出登录&quot; and //*[@class=&quot;is-login&quot;]/a/@href=&quot;/personal/2147537103&quot;</failureMessage>
+  </assertionResult>
+  <assertionResult>
+    <name>响应断言-判断是否是张三的个人主页</name>
+    <failure>false</failure>
+    <error>false</error>
+  </assertionResult>
+  <java.net.URL>http://www.renren.com/personal/2147537103</java.net.URL>
+</httpSample>
+
+</testResults>
